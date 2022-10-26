@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+
+//import Form from './Form';
+import Forms from './Forms';
+import Men from './Men';
+import Selection from './Selection';
+import Textesimple from './Textesimple';
+//import Heure from './Heure';
+import TexteMul from './TexteMul';
+
+
+//import form from './form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Men />
+       <Selection /> 
+      <Textesimple />
+      
+      <TexteMul />
+      <Forms />
     </div>
+     
   );
-}
+ 
+};
 
 export default App;
