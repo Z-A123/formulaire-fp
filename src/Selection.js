@@ -56,7 +56,7 @@ export default function Selection() {
   return (
     <div>
       <FormControl sx={{ m: 2, width: 300 }}>
-        <InputLabel id="demo-multiple-name-label">Nom de l'étudiant</InputLabel>
+        <InputLabel id="demo-multiple-name-label">Nom</InputLabel>
         
         <Select
           labelId="demo-multiple-name-label"
